@@ -1,0 +1,50 @@
+[
+    {
+    "id": 1,
+    "empresa": "NovaTech",
+    "cargo": "Suporte de TI",
+    "requisitos": ["Windows", "Office"],
+    "salario": "R$ 3.500",
+    "modalidade": "Presencial"
+    },
+    {
+    "id": 2,
+    "empresa": "WebMinds",
+    "cargo": "Estagiário de Desenvolvimento",
+    "requisitos": ["HTML", "CSS", "JavaScript"],
+    "salario": "R$ 2.200",
+    "modalidade": "Remoto"
+    },
+    {
+    "id": 3,
+    "empresa": "FixSoft",
+    "cargo": "Analista de Sistemas",
+    "requisitos": ["SQL", "Python", "JavaScript"],
+    "salario": "R$ 5.200",
+    "modalidade": "Híbrido"
+    },
+    {
+    "id": 4,
+    "empresa": "DataFlow",
+    "cargo": "Auxiliar de Help Desk",
+    "requisitos": ["Windows", "Office", "Redes"],
+    "salario": "R$ 3.000",
+    "modalidade": "Presencial"
+    },
+    {
+    "id": 5,
+    "empresa": "CodePlus",
+    "cargo": "Programador Júnior",
+    "requisitos": ["JavaScript", "HTML", "CSS"],
+    "salario": "R$ 4.800",
+    "modalidade": "Remoto"
+    },
+    {
+    "id": 6,
+    "empresa": "NetWorks",
+    "cargo": "Técnico em Redes",
+    "requisitos": ["Linux", "Redes", "TCP/IP"],
+    "salario": "R$ 4.500",
+    "modalidade": "Presencial"
+    }
+]
