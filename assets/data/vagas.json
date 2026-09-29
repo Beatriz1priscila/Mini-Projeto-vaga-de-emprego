@@ -5,7 +5,8 @@
     "cargo": "Suporte de TI",
     "requisitos": ["Windows", "Office"],
     "salario": "R$ 3.500",
-    "modalidade": "Presencial"
+    "modalidade": "Presencial",
+    "nivel": "Júnior"
     },
     {
     "id": 2,
@@ -13,7 +14,8 @@
     "cargo": "Estagiário de Desenvolvimento",
     "requisitos": ["HTML", "CSS", "JavaScript"],
     "salario": "R$ 2.200",
-    "modalidade": "Remoto"
+    "modalidade": "Remoto",
+    "nivel": "Estágio"
     },
     {
     "id": 3,
@@ -21,7 +23,8 @@
     "cargo": "Analista de Sistemas",
     "requisitos": ["SQL", "Python", "JavaScript"],
     "salario": "R$ 5.200",
-    "modalidade": "Híbrido"
+    "modalidade": "Híbrido",
+    "nivel": "Pleno"
     },
     {
     "id": 4,
@@ -29,7 +32,8 @@
     "cargo": "Auxiliar de Help Desk",
     "requisitos": ["Windows", "Office", "Redes"],
     "salario": "R$ 3.000",
-    "modalidade": "Presencial"
+    "modalidade": "Presencial",
+    "nivel": "Júnior"
     },
     {
     "id": 5,
@@ -37,7 +41,8 @@
     "cargo": "Programador Júnior",
     "requisitos": ["JavaScript", "HTML", "CSS"],
     "salario": "R$ 4.800",
-    "modalidade": "Remoto"
+    "modalidade": "Remoto",
+    "nivel": "Júnior"
     },
     {
     "id": 6,
@@ -45,6 +50,7 @@
     "cargo": "Técnico em Redes",
     "requisitos": ["Linux", "Redes", "TCP/IP"],
     "salario": "R$ 4.500",
-    "modalidade": "Presencial"
+    "modalidade": "Presencial",
+    "nivel": "Pleno"
     }
 ]
