@@ -16,3 +16,4 @@ if (vagas) {
 
 showRegistrationForm();
 readerRegistration();
+// PASTA ONDE IMPORTAREI AS DEMAIS 
