@@ -5,14 +5,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node main.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Beatriz1priscila/Mini-Projeto-vaga-de-emprego.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Priscila Beatriz",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {

@@ -1,10 +1,12 @@
 // PASTA ONDE IMPORTAREI AS DEMAIS 
 
 import fetchVagas from "./dados.js"
-import readerRegistration, { showRegistrationForm} from "./user.js"
+import {VagasTi} from "./motor.js"
 import renderVagas from "./ui.js"
 
-console.log("Hello, World!");
+console.log("Script principal carregado com sucesso!")
+
+const form = document.getElementById("perfil-candidato")
 
 const vagas = await fetchVagas();
 
@@ -14,5 +16,3 @@ if (vagas) {
     console.log("Vagas não carregadas!");
 }
 
-showRegistrationForm();
-readerRegistration();

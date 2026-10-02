@@ -7,7 +7,6 @@
     <title>Crtl+Alt+Vaga</title>
 
     <link rel="stylesheet" href="./assets/styles/index.styles.css">
-    <script type="module" src="./assets/scripts/main.js" defer></script>
 </head>
 <body>
     <header>
@@ -25,71 +24,80 @@
             </ul>
         </nav>
     </header>
-                <div>
-                    <article><h1>CRTL+ALT+VAGAS: SEU MOTOR DE COMPATIBILIDADE DE VAGAS EM TECNOLOGIA</h1></article>
+    <div>
+        <article><h1>CRTL+ALT+VAGAS: SEU MOTOR DE COMPATIBILIDADE DE VAGAS EM TECNOLOGIA</h1></article>
                 </div>
     <main>
         <fieldset>
-            <div class="perfil-candidato">
-
+            <form id="perfil-candidato">
+                <h2>Formulário do Candidato</h2>
                 <div>
                     <label for="nome">Nome</label>
-                    <input type="text" name="nome" id="nome" placeholder="Johnnny Depp" required>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
                 </div>
-
+                
                 <div>
                     <section>
                         <label for="area">Área de Interesse</label>
-
-                        <select name="area" id="area">
+                        
+                        <select name="area" id="area" required>
                             <option value="Front-end-Junior">Front End Júnior</option>
                             <option value="Analista-sistema">Analista de sistema</option>
                             <option value="Estagiario">Estágiario(a)</option>
-                        <option value="Help-desk">Help Desk</option>
-                        <option value="Programador">Programador</option>
-                        <option value="Tecnico-redes">Técnico em Redes</option>
-                    </select>
+                            <option value="Help-desk">Help Desk</option>
+                            <option value="Programador">Programador</option>
+                            <option value="Tecnico-redes">Técnico em Redes</option>
+                        </select>
                     </section>
                 </div>
-
+                
                 <div class="lista-habilidades">
-                    <section>
+                    <section required>
                         <p>Selecione suas habilidades</p>
                         <input type="checkbox">
                         <label for="hab-html">HTML</label>
-
+                        
                         <input type="checkbox">
                         <label for="hab-css">CSS</label>
-
+                        
                         <input type="checkbox">
                         <label for="hab-js">JavaScript</label>
-
+                        
                         <input type="checkbox">
                         <label for="hab-json">Json</label>
-
+                        
                         <input type="checkbox">
                         <label for="hab-redes">Redes</label>
-
+                        
                         <input type="checkbox">
                         <label for="hab-tcp-ip">TCP/IP</label>
-
+                        
                         <input type="checkbox">
                         <label for="hab-sql">SQL</label>
-
+                        
                         <input type="checkbox">
                         <label for="hab-python">Python</label>
                     </section>
                 </div>
-
+                
                 <div class="experiencia">
                     <label for="tempo-exp">Tempo de Experiência:</label>
-                    <input type="text" id="tempo-exp" name="experiencia" placeholder="Ex: 3 anos, 6 meses...">
+                    <input type="text" id="tempo-exp" name="experiencia" placeholder="Ex: 3 anos, 6 meses..." required>
                 </div>
+                
+                <button>Analisar Compatibilidade</button>
+            </fieldset>
 
-                <button>Enviar</button>
-        </fieldset>
+        <section>
+            <fieldset>
+                <h2>Vagas</h2>
+                
+                <div id="lista-vagas" class="lista-vagas"></div>
+            </fieldset>
+        </section>
     </main>
-
-
+    
+    
+    <script type="module" src="assets/scripts/main.js"></script>
 </body>
 </html>
