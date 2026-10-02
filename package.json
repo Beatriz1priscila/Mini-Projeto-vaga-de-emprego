@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "projeto-skillmatch-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beatriz1priscila/Mini-Projeto-vaga-de-emprego.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Beatriz1priscila/Mini-Projeto-vaga-de-emprego/issues"
+  },
+  "homepage": "https://github.com/Beatriz1priscila/Mini-Projeto-vaga-de-emprego#readme"
+}
