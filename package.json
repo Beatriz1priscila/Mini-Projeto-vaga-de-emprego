@@ -5,6 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node main.js"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,6 +13,7 @@
     "url": "git+https://github.com/Beatriz1priscila/Mini-Projeto-vaga-de-emprego.git"
   },
   "keywords": [],
+  "author": "Priscila Beatriz",
   "author": "",
   "license": "ISC",
   "type": "commonjs",

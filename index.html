@@ -7,6 +7,130 @@
     <title>Crtl+Alt+Vaga</title>
 
     <link rel="stylesheet" href="./assets/styles/index.styles.css">
+</head>
+<body>
+    <header class="topo">
+        <div class="logo">
+            <img src="./assets/img/image.png" alt="Logo da empresa">
+        </div>
+
+        <nav class="menu" aria-label="Menu principal">
+            <ul>
+                <li><a href="#vagas">VAGAS</a></li>
+                <li><a href="#sobre">SOBRE</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <article>
+            <h1>CRTL+ALT+VAGAS: SEU MOTOR DE COMPATIBILIDADE DE VAGAS EM TECNOLOGIA</h1>
+        </article>
+    </div>
+
+    <main>
+        <form id="perfil-candidato">
+                <fieldset>
+                <h2>Formulário do Candidato</h2>
+
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+                </div>
+                
+                <div>
+                    <label for="area">Área de Interesse</label>
+                        <select name="area" id="area" required>
+                            <option value="Front-end-Junior">Front End Júnior</option>
+                            <option value="Analista-sistema">Analista de sistema</option>
+                            <option value="Estagiario">Estágiario(a)</option>
+                            <option value="Help-desk">Help Desk</option>
+                            <option value="Programador">Programador</option>
+                            <option value="Tecnico-redes">Técnico em Redes</option>
+                        </select>
+                </div>
+                
+                <div class="lista-habilidades">
+    <p>Selecione suas habilidades</p>
+    <section>
+        <div>
+            <input type="checkbox" id="hab-html" name="habilidades" value="HTML">
+            <label for="hab-html">HTML</label>
+        </div>
+        <div>
+            <input type="checkbox" id="hab-css" name="habilidades" value="CSS">
+            <label for="hab-css">CSS</label>
+        </div>
+        <div>
+            <input type="checkbox" id="hab-js" name="habilidades" value="JavaScript">
+            <label for="hab-js">JavaScript</label>
+        </div>
+        <div>
+            <input type="checkbox" id="hab-json" name="habilidades" value="JSON">
+            <label for="hab-json">JSON</label>
+        </div>
+        <div>
+            <input type="checkbox" id="hab-redes" name="habilidades" value="Redes">
+            <label for="hab-redes">Redes</label>
+        </div>
+        <div>
+            <input type="checkbox" id="hab-tcp-ip" name="habilidades" value="TCP/IP">
+            <label for="hab-tcp-ip">TCP/IP</label>
+        </div>
+        <div>
+            <input type="checkbox" id="hab-sql" name="habilidades" value="SQL">
+            <label for="hab-sql">SQL</label>
+        </div>
+        <div>
+            <input type="checkbox" id="hab-python" name="habilidades" value="Python">
+            <label for="hab-python">Python</label>
+        </div>
+        <div>
+            <input type="checkbox" id="hab-windows" name="habilidades" value="Windows">
+            <label for="hab-windows">Windows</label>
+        </div>
+        <div>
+            <input type="checkbox" id="hab-office" name="habilidades" value="Office">
+            <label for="hab-office">Office</label>
+        </div>
+        <div>
+            <input type="checkbox" id="hab-linux" name="habilidades" value="Linux">
+            <label for="hab-linux">Linux</label>
+        </div>
+    </section>
+</div>
+                
+                <div class="experiencia">
+                    <label for="tempo-exp">Tempo de Experiência:</label>
+                    <input type="text" id="tempo-exp" name="experiencia" placeholder="Ex: 3 anos, 6 meses..." required>
+                </div>
+                
+                <button type="submit">Analisar Compatibilidade</button>
+                </fieldset>
+            </form>
+
+        <section class="vagas-panel" id="vagas">
+            <fieldset>
+                <h2></h2>
+                <div id="lista-vagas"></div>
+            </fieldset>
+        </section>
+    </main>
+
+    <footer class="rodape" id="sobre">
+        <div class="rodape-conteudo">
+            <div>
+                <h3>Sobre</h3>
+                <p>O Ctrl+Alt+Vagas conecta candidatos e oportunidades em tecnologia, ajudando você a descobrir vagas compatíveis com seu perfil, habilidades e experiência.</p>
+            </div>
+            <div>
+                <h3>Como funciona</h3>
+                <p>Você preenche suas habilidades, indica sua área de interesse e recebe sugestões de vagas com maior compatibilidade para seguir em frente na sua jornada profissional.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script type="module" src="assets/scripts/main.js"></script>
     <script type="module" src="./assets/scripts/main.js" defer></script>
 </head>
 <body>
