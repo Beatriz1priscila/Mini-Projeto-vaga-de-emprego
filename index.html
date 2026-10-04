@@ -131,5 +131,89 @@
     </footer>
     
     <script type="module" src="assets/scripts/main.js"></script>
+    <script type="module" src="./assets/scripts/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+                <img src="./assets/img/image.png" alt="">
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#">VAGAS</a>
+                    <a href="#">EMPRESAS</a>
+                    <a href="#">SOBRE</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+                <div>
+                    <article><h1>CRTL+ALT+VAGAS: SEU MOTOR DE COMPATIBILIDADE DE VAGAS EM TECNOLOGIA</h1></article>
+                </div>
+    <main>
+        <fieldset>
+            <div class="perfil-candidato">
+
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Johnnny Depp" required>
+                </div>
+
+                <div>
+                    <section>
+                        <label for="area">Área de Interesse</label>
+
+                        <select name="area" id="area">
+                            <option value="Front-end-Junior">Front End Júnior</option>
+                            <option value="Analista-sistema">Analista de sistema</option>
+                            <option value="Estagiario">Estágiario(a)</option>
+                        <option value="Help-desk">Help Desk</option>
+                        <option value="Programador">Programador</option>
+                        <option value="Tecnico-redes">Técnico em Redes</option>
+                    </select>
+                    </section>
+                </div>
+
+                <div class="lista-habilidades">
+                    <section>
+                        <p>Selecione suas habilidades</p>
+                        <input type="checkbox">
+                        <label for="hab-html">HTML</label>
+
+                        <input type="checkbox">
+                        <label for="hab-css">CSS</label>
+
+                        <input type="checkbox">
+                        <label for="hab-js">JavaScript</label>
+
+                        <input type="checkbox">
+                        <label for="hab-json">Json</label>
+
+                        <input type="checkbox">
+                        <label for="hab-redes">Redes</label>
+
+                        <input type="checkbox">
+                        <label for="hab-tcp-ip">TCP/IP</label>
+
+                        <input type="checkbox">
+                        <label for="hab-sql">SQL</label>
+
+                        <input type="checkbox">
+                        <label for="hab-python">Python</label>
+                    </section>
+                </div>
+
+                <div class="experiencia">
+                    <label for="tempo-exp">Tempo de Experiência:</label>
+                    <input type="text" id="tempo-exp" name="experiencia" placeholder="Ex: 3 anos, 6 meses...">
+                </div>
+
+                <button>Enviar</button>
+        </fieldset>
+    </main>
+
+
 </body>
 </html>
