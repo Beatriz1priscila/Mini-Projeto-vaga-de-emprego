@@ -23,17 +23,14 @@ export default async function fetchVagas() {
 }
 
 // RF14 PERSISTÊNCIA COM LOCALSTORAGE <==> SETITEM/GETITEM
-const form = document.getElementById("perfil-candidato")
 const listaKey = "perfil-candidato"
 
-const lista = []
-
-let salvarCandidato = localStorage.getItem("listaKey")
-
-if (salvarCandidato == null) {
-    localStorage.setItem(listaKey, "Nenhum dado salvo!")
+export function salvarCandidato(candidato) {
+    localStorage.setItem(listaKey, JSON.stringify(candidato))
+    return candidato
 }
 
-form.addEventListener("submit", (e) => {
-    e.preventDefault()
-})
+export function carregarCandidato() {
+    const valor = localStorage.getItem(listaKey)
+    return valor ? JSON.parse(valor) : null
+}
